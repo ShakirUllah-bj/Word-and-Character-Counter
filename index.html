@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word and Character Counter</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
     <div class="counter">
-        <h2>
+        <h2 id="header">
             Word And Character Counter
         </h2>
-        <textarea id="inputArea"></textarea>
+        <textarea id="inputArea" placeholder="Type Here..."></textarea>
         <footer>
-           <span>Word:</span>
-            <span>Character:</span>
+           <span>Word: <span id="word"></span></span>
+           
+            <span>Character: <span id="char"></span></span>
         </footer>
     </div>
 </body>
